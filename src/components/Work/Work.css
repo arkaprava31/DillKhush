@@ -1,0 +1,157 @@
+.workContainer {
+    margin-top: 20vh;
+    width: 1440px;
+    /* height: 4234px; */
+}
+
+.workCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 38px;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.workHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.workHeadingspan {
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+.tbswork {
+    background: var(--2, linear-gradient(158deg, #F86CF8 0%, #64CEF5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Orbitron;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.workCard {
+    width: 374px;
+    height: 434px;
+    flex-shrink: 0;
+    fill: #090823;
+    background: #090823;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workPara {
+    width: 500px;
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.workCardImgg {
+    width: 335px;
+    height: 217px;
+    flex-shrink: 0;
+    border-radius: 0px 15px 0px 0px;
+}
+
+.cardHeading {
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+.cardPara {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 336px;
+    margin-bottom: 25px;
+}
+
+.cardButton {
+    display: flex;
+}
+
+.button1 {
+    display: flex;
+    width: 103px;
+    height: 36px;
+    padding: 12px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: var(--3, linear-gradient(158deg, #D10ED1 0%, #10A3DA 100%));
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 2px;
+}
+
+.button2 {
+    display: flex;
+    width: 130px;
+    height: 36px;
+    padding: 12px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    background: var(--1, linear-gradient(180deg, #010208 16.39%, #010206 20.51%, #040008 24.79%, #010101 30.46%, #010101 34.11%, #010101 36.21%, #010101 100%));
+    margin: 2px;
+
+}
+@media(max-width:900px)
+{
+    .workContainer{
+        width: 90vw;
+    }
+    .workPara{
+        width: 80vw;
+    }
+    .workCard{
+        width: 80vw;
+    }
+    .workCardImgg{
+        width: 75vw;
+    }
+    .cardPara{
+        width:65vw ;
+    }
+}

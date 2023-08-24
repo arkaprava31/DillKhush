@@ -1,0 +1,110 @@
+.testimonialContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5vh;
+    border-radius: 1057px;
+background: radial-gradient(40.17% 39.79% at 50.00% 50.00%, rgba(170, 20, 240, 0.28) 0%, rgba(170, 20, 240, 0.00) 100%);
+}
+
+.testimonialheading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.testimonialheading1 {
+    color: var(--disabled-element-color, #8EC2F2);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+}
+
+.testimonialheading2 {
+    color: var(--disabled-element-color, #8EC2F2);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    width: 470px;
+}
+.testcards{
+    display: flex;
+    gap: 5vw;
+}
+.testcard {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 35px;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    background: var(--dark-background-color, #000);
+    gap: 5px;
+}
+
+.rating {
+    display: flex;
+    gap: 5px;
+}
+
+.desct {
+    width: 230px;
+}
+
+.testdesc {
+    color: var(--second-text-color, #737373);
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.name{
+    display: flex;
+    gap: 10px;
+}
+.nameimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nameimgg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.nametext{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+.nametexts{
+    color: var(--light-text-color, #FFF);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; 
+letter-spacing: 0.2px;
+}
+
+.nametextss{
+    color: var(--text-color, #252B42);
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0.2px;
+width: 24px;
+}

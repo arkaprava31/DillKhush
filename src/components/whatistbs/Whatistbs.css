@@ -1,0 +1,127 @@
+.whatistbsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20vh;
+    border-radius: 1057px;
+background: radial-gradient(40.17% 39.79% at 50.00% 50.00%, rgba(170, 20, 240, 0.28) 0%, rgba(170, 20, 240, 0.00) 100%);
+}
+
+.lefttbs {
+    position: relative;
+    margin-left: 10vw;
+}
+
+.leftimg1 {
+    position: absolute;
+    z-index: 1;
+    width: 282px;
+    height: 297px;
+    top: 0;
+    left: 0;
+}
+
+.leftimg2 {
+    position: absolute;
+    z-index: 2;
+    width: 287px;
+    height: 300px;
+    top: 200px;
+    left: 220px;
+}
+
+.righttbs{
+    margin-right: 10vw;
+    margin-top: 20vh;
+}
+
+.tbspara {
+    width: 524px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.witspan {
+    color: #FFF;
+    font-family: Orbitron;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.tbsspann {
+    background: var(--2, linear-gradient(158deg, #F86CF8 0%, #64CEF5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Orbitron;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.tbsbutton1 {
+    display: flex;
+    width: 137px;
+    height: 44px;
+    padding: 12px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background: var(--3, linear-gradient(158deg, #D10ED1 0%, #10A3DA 100%));
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+}
+
+@media(max-width:900px)
+{
+    .whatistbsContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .leftimg1 {
+        position: absolute;
+        z-index: 1;
+        width: 175px;
+        height: 180px;
+        top: 0;
+        left: 0;
+    }
+    
+    .leftimg2 {
+        position: absolute;
+        z-index: 2;
+        width: 180px;
+        height: 185px;
+        top: 110px;
+        left: 110px;
+    }
+    .righttbs{
+        margin-top: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80vw;
+    }
+    .tbspara{
+        width: 75vw;
+        margin-left: 2vw;
+    }
+    .lefttbs{
+        margin-top: 20vh;
+    }
+}
